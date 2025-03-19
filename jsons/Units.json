@@ -1,0 +1,17 @@
+[
+  # Only adds requiredResource 
+  
+	{
+		"name": "Nuclear Submarine",
+		"unitType": "Submarine",
+		"movement": 6,
+		"strength": 50,
+		"range": 3,
+		"rangedStrength": 85,
+		"cost": 425,
+		"requiredTech": "Telecommunications",
+    "requiredResource": "Uranium",
+		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "[+1] Sight", "Can carry [2] [Missile] units", "Never appears as a Barbarian unit"],
+		"attackSound": "torpedo"
+	},
+]
